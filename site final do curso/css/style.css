@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+body{
+    font-family: "Nunito", sans-serif;
+}
+:root{
+ --azul-claro: #77d1d1;
+ --azul-mais-claro: #91dddd;
+ --color: #abe8e8;
+ --color-p: #c5f4f4;
+--color-m: #1daba8;
+--white:white;
+}
+  .background-azul-claro{
+background:var(--azul-claro) ;
+  }
+  /*classes reutilizavéis */
+.container{
+max-width: 1440px ;
+padding: 0 5%;
+margin: 0 auto;
+
+}
+
+.btn-gradiente{
+    padding: 10px 25px;
+    color: white; 
+    border: none;
+    cursor: pointer;
+    background-color: var(--color-m)
+}
+  /* classes do site */
+  nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 20px 0;
+  }
+  .logo a{
+    font-size: 35px;
+    font-weight: bold;
+    color: white;
+  }
+  .ul{
+    display: flex;
+    align-items: center;
+  }
+  .ul li{
+    margin: 0 35px;
+    font-size: 15px;
+  }
+  .ul li a{
+    color: white;
+  }
+  header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  .banner .banner-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+  }
+.banner .banner-text h1{
+  font-size: 95px;
+  color: white;
+}
+.banner .banner-text p{
+  font-size: 60px;
+  color: white;
+}
+/*OBRIGADO POR NOS VISITAR*/
+.OBRIGADO-POR-NOS-VISITAR .container{
+  display: flex;
+  align-items: center;
+}
+.OBRIGADO-POR-NOS-VISITAR .OBRIGADO-POR-NOS-VISITAR-text{
+  width: 80%;
+  padding: 0 70px;
+}
+.OBRIGADO-POR-NOS-VISITAR .OBRIGADO-POR-NOS-VISITAR-text h3{
+  font-size: 60px;
+}
+.OBRIGADO-POR-NOS-VISITAR .OBRIGADO-POR-NOS-VISITAR-text p{
+  margin: 8px 0 15px 0;
+}
+.OBRIGADO-POR-NOS-VISITAR .OBRIGADO-POR-NOS-VISITAR-img{
+  width: 50;
+}
+.OBRIGADO-POR-NOS-VISITAR .OBRIGADO-POR-NOS-VISITAR-img image{
+  width: 60%;
+  width: 30px; 
+}
+
+.banner2 .banner2-text{
+  margin: 150px;
+  text-align: center;
+  padding: 0 90px;
+}
+.banner2 .banner2-text h3{
+  font-size: 80px;
+  color: white;
+   /* Página Sobre */
+}
+.banner3 .banner3-text{
+   margin: 150px;
+   text-align: center;
+    padding: 0 90px;
+}
+.banner3 .banner3-text h4{
+  font-size: 80px;
+  color: white;
+}
+  .banner3 .banner3-text p{
+    font-size: 50px;
+  color:white;
+  }
+  .sobre .container h1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  /* Página Integrantes*/
+.Equipe h3{
+  text-align: center;
+}
+.Equipe p{
+  margin-bottom: 50px;
+  text-align: center;
+}
+.cards{
+  display: flex;
+  justify-content: center;
+}
+.Equipe .card-item{
+  background-color: #abe8e8;
+  margin: 15px;
+  border-radius: 14px;
+  text-align: center;
+  width: 350px;
+}
+.Equipe .card-item img{
+  border-radius: 100%;
+  width: 80px;
+  display: block;
+  margin: 10px auto;
+}
+.Equipe .card-item .nome-user{
+  font-weight: 500;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+.Equipe .card-item .descricao-user{
+  font-size: 18px;
+  padding: 0 15px;
+}
+.Equipe .card-item:hover{
+  background-color: #77d1d1;
+}
+  /* Página Sobre */
+  .sobre .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .sobre .sobre-text{
+    width: 70%;
+    padding-right: 80px;
+  }
+  .sobre .sobre-text p{
+    margin: 30px 0;
+    color: black;
+    
+  }
+  .sobre .sobre-img{
+    width: 50%;
+    border-radius: 10px;
+  }
+  /*dados*/
+  .dados{
+    background-color: #77d1d1;
+  }
+  .dados .container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  .dados .dados-item{
+    text-align: center;
+    margin: 15px;
+    color: bisque;
+  }
+  .dados .dados-item p{
+    font-size: 18px;
+  }
+  .dados .dados-item p strong{
+    font-size: 28px;
+  }
+  /*referências*/
+  .banner4 .banner4-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+  }
+  .banner4 .banner4-text h3{
+    font-size: 80px;
+    color: white;
+  }
+  .cards{
+    display: flex;
+    justify-content: center;
+  }
+  .Referências .cards-item{
+    background-color: #abe8e8;
+    margin: 15px;
+    border-radius: 14px;
+    text-align: center;
+    width: 350px;
+  }
+
+  .Referências .cards-item .nome-font{
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  .Referências .cards-item .descricao-font{
+    font-size: 18px;
+    padding: 0 15px;
+  }
+  /*Página Adoção*/
+  .banner5 .Adote-text{
+    margin: 150px;
+    text-align: center;
+    padding: 0 90px;
+  }
+  .banner5 .Adote-text h1{
+    font-size: 80px;
+    color: white;
+  }
+footer{
+  background-color: #abe8e8;
+}
+footer .container{
+  display: flex;
+  color: blue;
+}
+footer .container ul{
+  width: 25%;
+}
+footer . .container h3{
+  margin-bottom: 16px;
+  font-weight: 600;
+}
+footer .container .ul > p{
+  margin-bottom: 40px;
+}
+footer  .container li{
+  margin: 10px 0;
+}
+footer .container a{
+  color: blue;
+}
+footer .container{
+  flex-direction:column ;
+}
+.row{
+  display: list-item;
+  flex-wrap: wrap;
+}
