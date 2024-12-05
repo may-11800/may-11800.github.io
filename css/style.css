@@ -188,7 +188,7 @@ padding: 20px 0;
   }
   /*dados*/
   .dados{
-    background-color: #77d1d1;
+    background-color: white;
   }
   .dados .container{
     display: flex;
@@ -198,7 +198,7 @@ padding: 20px 0;
   .dados .dados-item{
     text-align: center;
     margin: 15px;
-    color: bisque;
+    color: rgb(8, 8, 8);
   }
   .dados .dados-item p{
     font-size: 18px;
